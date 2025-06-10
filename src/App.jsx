@@ -1,4 +1,9 @@
-import Header from "./components/Header";
+import AboutMe from "./components/About/About";
+import Containner from "./components/Containner/Containner";
+import Contract from "./components/Contract/Contract";
+import Navber from "./components/Navber";
+import Project from "./components/Project/Project";
+import Skills from "./components/Skills/Skills";
 
 
 
@@ -8,9 +13,13 @@ function App() {
 
   return (
    <>
-   <div> <h1 className="bg-blue-400 py-[50px] text-center font-bold text-4xl m-[30px]" >wlc Japan </h1>
-           </div>
-     <Header></Header>
+  <Navber></Navber>
+  <AboutMe></AboutMe>
+  <Containner></Containner>
+  <Skills></Skills>
+  <Project></Project>
+  <Contract></Contract>
+  
  
 
    </>
