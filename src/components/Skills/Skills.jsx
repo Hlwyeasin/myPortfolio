@@ -8,8 +8,8 @@ const Skills = () => {
 
     <Container>
         <div className="text-center mb-12">
-      <h2 className="text-3xl font-semibold text-gray-800">My Skills</h2>
-      <p className="mt-4 text-lg text-gray-600">
+      <h2 className="text-3xl font-semibold text-white">My Skills</h2>
+      <p className="mt-4 text-lg text-white">
         Proficient in modern web development technologies.
       </p>
     </div>
