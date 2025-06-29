@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Container from '../Containner/Containner';
+import myprotfoScreen from "../../assets/myprotfollioScreenshort.png"
 
 const Project = () => {
   return (
@@ -16,10 +17,10 @@ const Project = () => {
           {/* Project 1 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
             <img
-              src="https://placehold.co/600x400/314e68/ffffff?text=Project+One"
+              src={myprotfoScreen}
               alt="Project One"
               className="w-full h-48 object-cover"
-              onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/600x400/314e68/ffffff?text=Image+Error"; }}
+              // onError={(e) => { e.target.onerror = null; e.target.src="https://placehold.co/600x400/314e68/ffffff?text=Image+Error"; }}
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -34,17 +35,18 @@ const Project = () => {
                 <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">Node.js</span>
                 <span className="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">MongoDB</span>
               </div>
-              <div className="flex justify-end space-x-4">
+              <div className='flex justify-end space-x-4'>
                 <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
+                 href='https://agenc-full.vercel.app/'  target="_blank"
+                
+                  className="  inline-flex items-center px-4 py-2 bg-black-600 text-white font-semibold rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-100 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
                   aria-label="View Project One Demo"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10 12a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                     <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd" />
                   </svg>
-                  Demo
+                  Live
                 </a>
                 <a
                   href="#"
