@@ -6,10 +6,10 @@ const Navbar = () => {
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
 
   return (
-    <nav className="bg-gray-900 text-white p-[10px] py-[20px] md:fixed w-full ">
+    <nav className="bg-purple-600 text-white p-[10px] py-[20px] md:fixed w-full z-9999 ">
       <div className="container mx-auto flex justify-between items-center">
         {/* First div: Name */}
-        <div className="text-4xl font-bold cursor-pointer hover:text-red-300 md:font-bold">Yeasin <span className='text-blue-600  cursor-pointer hover:text-amber-300'>Chowdhury</span></div>
+        <div className="text-4xl font-bold cursor-pointer hover:text-red-300 md:font-bold">Yeasin <span className='text-amber-400  cursor-pointer hover:text-amber-300'>Chowdhury</span></div>
 
 
 
