@@ -7,7 +7,7 @@ import clenignimg from  "../../assets/cleaningproject.png"
 
 const Project = () => {
   return (
-    <section id="projects" className="py-16 bg-gray-100 dark:bg-gray-800">
+    <section id="projects" className="py-16 bg-gray-100 dark:bg-purple-500">
       <>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-extrabold text-center text-gray-900 dark:text-white mb-12">
@@ -16,7 +16,7 @@ const Project = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
-            <div className="bg-white dark:bg-gray-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
+            <div className="bg-white dark:bg-purple-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
               <img
                 src={myprotfoScreen}
                 alt="Project One"
@@ -25,7 +25,7 @@ const Project = () => {
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                  E-commerce Platform
+                 AgentFull
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-base mb-4">
                   A fully functional e-commerce website built with React and a
@@ -40,10 +40,10 @@ const Project = () => {
                     Tailwind CSS
                   </span>
                   <span className="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">
-                    Node.js
+                   JavaScript
                   </span>
                   <span className="bg-red-100 text-red-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300">
-                    MongoDB
+                    CSS
                   </span>
                 </div>
                 <div className="flex justify-end space-x-4">
@@ -96,7 +96,7 @@ const Project = () => {
             </div>
 
             {/* Project 2 */}
-            <div className="bg-white dark:bg-gray-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
+            <div className="bg-white dark:bg-purple-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
               <img
                 src={clenignimg}
                 alt="Project Two"
@@ -109,7 +109,7 @@ const Project = () => {
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                  Task Management App
+                  Cleaning project
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-base mb-4">
                   A collaborative task management application with real-time
@@ -118,16 +118,16 @@ const Project = () => {
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-300">
-                    Vue.js
+                    React
                   </span>
                   <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-purple-900 dark:text-purple-300">
-                    Express.js
+                   Talwind CSS
                   </span>
                   <span className="bg-teal-100 text-teal-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-teal-900 dark:text-teal-300">
-                    PostgreSQL
+                    CSS
                   </span>
                   <span className="bg-pink-100 text-pink-800 text-xs font-semibold px-2.5 py-0.5 rounded-full dark:bg-pink-900 dark:text-pink-300">
-                    WebSockets
+                 JavaScript
                   </span>
                 </div>
                 <div className="flex justify-end space-x-4">
@@ -181,7 +181,7 @@ const Project = () => {
             </div>
 
             {/* Project 3 */}
-            <div className="bg-white dark:bg-gray-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
+            <div className="bg-white dark:bg-purple-700 rounded-lg shadow-xl overflow-hidden transform transition duration-500 hover:scale-105">
               <img
                 src={clenignimg}
                 alt="Project Three"
@@ -194,7 +194,7 @@ const Project = () => {
               />
               <div className="p-6">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
-                  Weather Dashboard
+             Cleaning project
                 </h3>
                 <p className="text-gray-700 dark:text-gray-300 text-base mb-4">
                   An interactive weather dashboard that displays current weather
